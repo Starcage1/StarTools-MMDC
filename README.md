@@ -1,13 +1,6 @@
-StarTools: MMDC
+# StarTools: MMDC
 
-Minecraft Modding Duplicate Checker
-
-
-
-by Star (Aniket)
-
-
-
+### Minecraft Modding Duplicate Checker
 StarTools: MMDC is a powerful standalone utility designed for modders, modpack creators, resource pack authors, and especially contributors to the Rename Compat Project.
 
 
@@ -16,19 +9,19 @@ Minecraft is full of mods that unknowingly add items with the same display name,
 
 
 
-Pear
+- Pear
 
 
 
-Copper Nugget
+- Copper Nugget
 
 
 
-Limestone
+- Limestone
 
 
 
-Orange Jelly
+- Orange Jelly
 
 
 
@@ -36,23 +29,23 @@ Across large modpacks, this becomes a real problem for:
 
 
 
-balancing
+- balancing
 
 
 
-debugging
+- debugging
 
 
 
-making compat datapacks
+- making compat datapacks
 
 
 
-UX consistency
+- UX consistency
 
 
 
-resource pack override correctness
+- resource pack override correctness
 
 
 
@@ -78,7 +71,7 @@ StarTools: MMDC solves that problem by scanning:
 
 🔨 What This Tool Can Be Used For
 
-✔ Modpack Curation
+### ✔ Modpack Curation
 
 
 
@@ -102,7 +95,7 @@ improve player clarity
 
 
 
-✔ Mod Development
+### ✔ Mod Development
 
 
 
@@ -110,7 +103,7 @@ Check if your mod unintentionally reuses display names from other mods.
 
 
 
-✔ Resource Pack Development
+### ✔ Resource Pack Development
 
 
 
@@ -134,7 +127,7 @@ per-mod breakdowns
 
 
 
-✔ Rename Compat Project (RCP) Contributors
+### ✔ Rename Compat Project (RCP) Contributors
 
 
 
@@ -150,7 +143,7 @@ https://www.curseforge.com/minecraft/texture-packs/the-rcp
 
 You can scan a modpack, see all duplicates, then update the RP accordingly.
 
-
+---
 
 ✅ Requirements
 
@@ -202,7 +195,7 @@ dump/worldgen/
 
 StarTools: MMDC reads these.
 
-
+---
 
 ➡ Download \& Run (EXE Version — Recommended)
 
@@ -332,7 +325,7 @@ how RCP overrides are applied
 
 what the “missing lang key” warnings mean
 
-
+---
 
 🟠 Running from Source (Python Version)
 
@@ -344,7 +337,8 @@ If you want to run the script directly:
 
 1\. Install dependencies
 
-pip install -r requirements.txt
+pip install -r requirements.txt 
+
 
 
 
@@ -368,7 +362,7 @@ Output:
 
 dist/StarTools-MMDC.exe
 
-
+---
 
 🔧 Features
 
@@ -411,4 +405,5 @@ Registry Dump (Required, if not using another registry mod)
 
 
 https://modrinth.com/mod/registry-dump
+
 
