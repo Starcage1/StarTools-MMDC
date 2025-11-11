@@ -2,8 +2,8 @@
 echo Building StarTools: MMDC...
 pyinstaller --noconfirm --windowed --onefile ^
  --name "StarTools-MMDC" ^
- --icon=icon.ico ^
- mc_dupes_gui_full.py
+ --icon=startools_mmdc.ico ^
+ mmdc.py
 
 echo Build complete!
 pause

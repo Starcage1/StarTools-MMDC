@@ -11,8 +11,8 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter import ttk
 
-APP_NAME = "Duplicate Name Scanner — by Star (Aniket)"
-CONFIG_NAME = "mc_dupes_gui_config.json"
+APP_NAME = "StarTools - Minecraft Modding Duplicate Checker"
+CONFIG_NAME = "mmdc.json"
 
 ##############################
 # Utility / Core logic
@@ -444,7 +444,7 @@ class App(tb.Window):
             "How to use:\n"
             "1) Use a registry dump mod to export IDs. Recommended: 'Registry Dump' on Modrinth (tested with this).\n"
             "2) Click 'Browse' next to Dump Root, then 'Scan Dump Root' and pick the subfolder (items/blocks/entities...)\n"
-            "3) Pick your Mods folder (where .jar files are), Resource Pack path (zip/folder, optional), and Output folder.\n"
+            "3) Pick your Mods folder (where .jar files are), Resource Pack path (zip/folder, optional. For ex, the Rename compat project), and Output folder (The folder where your files will be generated in).\n"
             "4) Click 'Start Scan'. Reports will be written to the Output folder.\n\n"
             "Reports generated:\n"
             "• BASELINE_duplicates.txt — duplicates by name BEFORE resource pack overrides.\n"
@@ -455,7 +455,6 @@ class App(tb.Window):
             "• Only cross-mod duplicates are kept (same display name used by 2+ different mods).\n"
             "• If a mod lacks lang entries, we fall back to a prettified ID path (e.g., 'pear_jelly_block' -> 'Pear Jelly Block').\n"
             "• This tool compares *names*, not IDs. If two different names are used, they won't count as duplicates.\n\n"
-            "Link (copy/paste in browser): https://modrinth.com/mod/registry-dump\n"
             "Made for Star (Aniket). Have fun fixing the multiverse of Pears 🍐.\n"
         )
         txt.insert("1.0", msg)
